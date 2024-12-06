@@ -144,7 +144,8 @@ footer {
     background: #333;
     color: white;
     margin-top: 05px;
-}
+    bottom:0;
+    }
 
 /* Layout und Projektdarstellung */
 .container {
