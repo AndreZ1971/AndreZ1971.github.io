@@ -53,11 +53,22 @@ nav {
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 150px;
+    min-width: 70px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
+.language-icon {
+    width: 30px; /* Breite der Bilder */
+    height: auto; /* Automatische Höhe für korrekte Skalierung */
+    display: block; /* Damit die Bilder einzeln erscheinen */
+    margin: 5px auto; /* Zentriert die Bilder in der Dropdown-Liste */
+    cursor: pointer; /* Zeigt eine Hand an, wenn man über das Bild fährt */
+}
+
+.dropdown-content a {
+    text-decoration: none; /* Entfernt den Textdekorationsstil */
+}
 .dropdown-content a {
     color: black;
     padding: 10px 15px;
