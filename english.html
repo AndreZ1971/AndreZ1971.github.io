@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script>
+        function setStyle(styleName) {
+            document.body.className = styleName;
+        }
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function setLanguage(language) {
+            alert('Sprache geändert zu: ' + language);
+        }
+    </script>
+</head>
+<body class="style1">
+    <header>
+        <h1>Andre Werner Zabel</h1>
+        <p>Softwareentwickler | Open-Source-Enthusiast | Innovator</p>
+        <nav>
+            <a href="#about">Über mich</a>
+            <a href="#projects">Projekte</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+        <div class="controls">
+            <div class="dropdown">
+                <button class="dropbtn">Stil auswählen</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="setStyle('style1')">Standard</a>
+                    <a href="#" onclick="setStyle('style2')">Dunkel</a>
+                    <a href="#" onclick="setStyle('style3')">Sandfarben</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Sprache auswählen</button>
+                <div class="dropdown-content">
+                    <a href="index.html" onclick="setLanguage('Deutsch')">Deutsch</a>
+                    <a href="english.html" onclick="setLanguage('Englisch')">Englisch</a>
+                    <a href="thai.html" onclick="setLanguage('Thai')">Thai</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>Über mich</h2>
+            <p>Hallo! Ich bin Andre Werner Zabel, ein leidenschaftlicher Softwareentwickler mit Fokus auf innovative Projekte und Open-Source-Beiträge. Ich liebe es, Lösungen für komplexe Probleme zu entwickeln und Wissen mit der Community zu teilen.</p>
+        </section>
+        <section id="projects" class="projects">
+            <h2>Projekte</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Projekt 1</h3>
+                    <p>Ein innovatives Tool zur Automatisierung von Aufgaben mit Python.</p>
+                    <a href="#" target="_blank">Repository ansehen</a>
+                </div>
+                <div class="project-card">
+                    <h3>Projekt 2</h3>
+                    <p>Eine interaktive Webanwendung zur Unterstützung beim Lernen.</p>
+                    <a href="#" target="_blank">Repository ansehen</a>
+                </div>
+                <div class="project-card">
+                    <h3>Projekt 3</h3>
+                    <p>Ein REST-API-Projekt für moderne Webanwendungen.</p>
+                    <a href="#" target="_blank">Repository ansehen</a>
+                </div>
+                <div class="project-card">
+                    <h3>Projekt 4</h3>
+                    <p>Ein Tool zur Datenanalyse mit Python und Pandas.</p>
+                    <a href="#" target="_blank">Repository ansehen</a>
+                </div>
+                <div class="project-card">
+                    <h3>Projekt 5</h3>
+                    <p>Ein Lernmanagementsystem mit Django und Vue.js.</p>
+                    <a href="#" target="_blank">Repository ansehen</a>
+                </div>
+                <div class="project-card">
+                    <h3>Projekt 6</h3>
+                    <p>Ein E-Commerce-Backend mit Node.js und MongoDB.</p>
+                    <a href="#" target="_blank">Repository ansehen</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Kontakt</h2>
+            <div class="social-buttons">
+                <a href="https://www.linkedin.com/" target="_blank" class="linkedin-btn">LinkedIn</a>
+                <a href="https://www.xing.com/" target="_blank" class="xing-btn">Xing</a>
+            </div>
+            <div class="contact-form">
+                <form action="/send_mail.php" method="POST">
+                    <input type="text" name="name" placeholder="Dein Name" required>
+                    <input type="email" name="email" placeholder="Deine E-Mail" required>
+                    <textarea name="message" rows="5" placeholder="Deine Nachricht" required></textarea>
+                    <button type="submit">Nachricht senden</button>
+                </form>
+                
+            </div>
+        </section>
+    </div>
+    <footer>
+        <button class="top-button" onclick="scrollToTop()">⬆ Top</button>
+        &copy; 2024 Andre Werner Zabel. Alle Rechte vorbehalten.
+    </footer>
+</body>
+</html>
