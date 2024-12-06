@@ -138,14 +138,15 @@ nav {
 
 /* Footer */
 footer {
-    position: relative; /* Damit der Button innerhalb des Containers bleibt */
+    position: fixed;
     text-align: center;
     padding: 10px;
+    width: 100%;
     background: #333;
     color: white;
     margin-top: 05px;
-    bottom:0;
-    }
+    bottom: 0px;
+}
 
 /* Layout und Projektdarstellung */
 .container {
