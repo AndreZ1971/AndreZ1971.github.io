@@ -28,6 +28,35 @@ nav {
     gap: 10px;
 }
 
+/* Allgemeine Link-Styling */
+a {
+    text-decoration: none; /* Keine Unterstreichung */
+    color: inherit; /* Textfarbe bleibt gleich */
+}
+
+/* Links im Header */
+header a {
+    color: white; /* Weiß für Header-Links */
+    text-decoration: none; /* Keine Unterstreichung */
+}
+
+header a:hover {
+    color: #f0f0f0; /* Heller beim Hover */
+    text-decoration: none; /* Keine Unterstreichung */
+}
+
+/* Links im Projektbereich */
+.projects a {
+    text-decoration: none; /* Keine Unterstreichung */
+    color: inherit; /* Beibehaltung der Textfarbe */
+    font-style: normal; /* Standard: Normal */
+}
+
+.projects a:hover {
+    font-style: italic; /* Kursiv beim Hover */
+    text-decoration: none; /* Keine Unterstreichung */
+}
+
 /* Dropdown-Menü */
 .dropdown {
     position: relative;
