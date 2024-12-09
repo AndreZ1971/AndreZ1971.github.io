@@ -94,19 +94,56 @@
             </div>
         </section>
         <section id="contact" class="contact">
-            <h2>ติดต่อ</h2>
+            <h2>Kontakt</h2>
             <div class="contact-form">
-                
                 <div class="social-buttons">
                     <a href="https://www.linkedin.com/" target="_blank" class="linkedin-btn">LinkedIn</a>
+                    <button class="contact-btn" onclick="openContactForm()">Kontakt</button>
                     <a href="https://www.xing.com/" target="_blank" class="xing-btn">Xing</a>
                 </div>
             </div>
         </section>
+        
+        <!-- Popup-Kontaktformular -->
+        <div id="contact-popup" class="popup">
+            <div class="popup-content">
+                <span class="close-btn" onclick="closeContactForm()">&times;</span>
+                <h2>Kontaktformular</h2>
+                <form id="contact-form" action="mailto:andre.zabel71@gmail.com" method="post" enctype="multipart/form-data">
+                    <label for="name">Name (Pflicht):</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">E-Mail (Pflicht):</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="subject">Betreff (Pflicht):</label>
+                    <input type="text" id="subject" name="subject" required>
+                    
+                    <label for="code-snippet">Code-Schnipsel:</label>
+                    <textarea id="code-snippet" name="code-snippet" rows="5"></textarea>
+                    
+                    <label for="file-upload">Datei hochladen:</label>
+                    <input type="file" id="file-upload" name="file-upload">
+                    
+                    <button type="submit">Senden</button>
+                </form>
+            </div>
+        </div>
+        
     </div>
+    <button class="top-button" onclick="scrollToTop()">⬆ Top</button>
     <footer>
         <button class="top-button" onclick="scrollToTop()">⬆ Top</button>
         &copy; 2024 Andre Werner Zabel. Alle Rechte vorbehalten.
     </footer>
+    <script>
+        function openContactForm() {
+            document.getElementById('contact-popup').classList.add('show');
+        }
+    
+        function closeContactForm() {
+            document.getElementById('contact-popup').classList.remove('show');
+        }
+    </script>
 </body>
 </html>
