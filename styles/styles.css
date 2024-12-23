@@ -2,13 +2,13 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    color: #333;
-    background: #f7f9fc;
+    color: #0c0c0c;
+    background: #717272;
 }
 
 header {
-    background: #4caf50;
-    color: white;
+    background: #212221;
+    color: rgb(133, 131, 131);
     padding: 20px;
     text-align: center;
     position: relative;
@@ -65,7 +65,7 @@ header a:hover {
 
 .dropdown .dropbtn {
     background: white;
-    color: #4caf50;
+    color: #1c1d1c;
     padding: 10px;
     font-size: 14px;
     border: none;
@@ -119,7 +119,7 @@ header a:hover {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: #4caf50;
+    background: #5e5f5e;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -130,7 +130,7 @@ header a:hover {
 }
 
 .top-button:hover {
-    background: #45a049;
+    background: #8b8d8b;
 }
 
 /* Kontaktformular verstecken */
@@ -195,7 +195,7 @@ footer {
 }
 
 .languages h2 {
-    color: #4caf50;
+    color: #c7cac7;
     margin-bottom: 20px;
 }
 
@@ -269,10 +269,10 @@ footer {
 }
 
 h2 {
-    color: #4caf50;
+    color: #c7cac7;
     text-align: center;
     margin-bottom: 20px;
-    border-bottom: 2px solid #4caf50;
+    border-bottom: 2px solid #0a0a0a;
 }
 
 .project-grid {
@@ -322,7 +322,7 @@ h2 {
 }
 
 .contact-btn {
-    background: #4caf50;
+    background: #3d3d3d;
 }
 
 .linkedin-btn:hover, .contact-btn:hover, .xing-btn:hover {
@@ -464,11 +464,18 @@ h2 {
 
 /* Der Inhalt bleibt ähnlich strukturiert wie in Style 1 */
 body.style2 header {
-    background-image: #f4a261;
-    color: #222;
-    padding: 20px;
+    background: #333;
+    color: #fff;
+    padding: 30px;
+    border-bottom: 5px solid #f00; 
     text-align: center;
 }
+
+body.style2 {
+    background-image: url('images/dunkel.jpg');
+    color: white;
+}
+
 body.style2 .project-card {
     background: #2e2e2e;
     color: #ddd;
@@ -482,6 +489,18 @@ body.style2 .project-card:hover {
 body.style2 footer {
     background: #222;
     color: #ccc;
+}
+
+/* Footer */
+body.style2 footer {
+    position: fixed;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background: #333;
+    color: #ff0000;
+    margin-top: 05px;
+    bottom: 0px;
 }
 
 /* Platzhalter-Stil (Style 3) - Weitere Anpassungen können später erfolgen */
