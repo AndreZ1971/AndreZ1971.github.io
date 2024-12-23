@@ -188,6 +188,79 @@ footer {
     bottom: 0px;
 }
 
+/* Sektion Styling */
+.languages {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.languages h2 {
+    color: #4caf50;
+    margin-bottom: 20px;
+}
+
+/* Grid-Layout für die Kacheln */
+.languages-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 Kacheln nebeneinander */
+    gap: 20px; /* Abstand zwischen den Kacheln */
+    justify-items: center;
+}
+
+/* Styling für die Karten */
+.language-card {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.language-card:hover {
+    transform: scale(1.05); /* Vergrößerung beim Hover */
+}
+
+/* Symbol in der Karte */
+.language-card img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.language-card:hover img {
+    transform: scale(1.2); /* Vergrößerung des Symbols beim Hover */
+}
+
+/* Hover-Text */
+.language-card .hover-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.language-card:hover .hover-text {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
 /* Layout und Projektdarstellung */
 .container {
     max-width: 1200px;
