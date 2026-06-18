@@ -6,15 +6,15 @@ Ich baue KI-Produkte die wirklich funktionieren. Solo. Von der Idee bis zur Infr
 
 ## 🚀 Aktuelle Projekte
 
-| Projekt                                                                     | Beschreibung                                                                        | Status               |
-| --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | -------------------- |
-| [E.L.L.A.](https://ella-agent.de)                                           | Lokaler KI-Assistent für Windows — 70+ Tools, vollständig offline, kein Cloud-Zwang | 🟣 Launch 01.07.2026 |
-| [E.L.L.A. Directive](https://github.com/AndreZ1971/ella-directive)          | Hardcodierte KI-Sicherheitsarchitektur — kein Prompt, sondern Architektur           | 🟡 Open Source       |
-| HPL — Headhunter Plattform                                                  | KI-gestütztes Matching zwischen Bewerbern und Stellen                               | 🟣 Launch 01.08.2026 |
-| [A.R.I. / Woo KI](https://github.com/AndreZ1971/ari-provisioning)           | Autonomes WooCommerce IaaS auf Kubernetes-Cluster                                   | 🟡 Open Source       |
-| [Want2Lern](https://want2lern.de)                                           | Lernplattform mit KI-Fragengenerierung und 4-stufigem Lizenzsystem                  | 🟢 Live              |
-| [Urban Weaver](https://github.com/AndreZ1971/Urban-Weaver)                  | KI-Lifestyle & Reise-App mit ortsbasierten Empfehlungen                             | 🟡 Open Source       |
-| [Global Risk Intelligence](https://github.com/AndreZ1971/risk-intelligence) | Dual-Use Plattform: TravelGuard (B2B) + Sentinel Core (B2G)                         | 🔵 B2B/B2G           |
+| Projekt                                                                     | Beschreibung                                                                                                                            | Status               |
+| --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| [E.L.L.A.](https://ella-agent.de)                                           | Lokaler KI-Assistent für Windows — 70+ Tools, vollständig offline, kein Cloud-Zwang                                                     | 🟣 Launch 01.07.2026 |
+| [E.L.L.A. Directive](https://github.com/AndreZ1971/ella-directive)          | Open-Source Ethik-Framework inspiriert von Asimovs 3 Gesetzen — erstmals real implementiert. Für KI heute, für autonome Systeme morgen. | 🟡 Open Source       |
+| HPL — Headhunter Plattform                                                  | KI-gestütztes Matching zwischen Bewerbern und Stellen                                                                                   | 🟣 Launch 01.08.2026 |
+| [A.R.I. / Woo KI](https://github.com/AndreZ1971/ari-provisioning)           | Autonomes WooCommerce IaaS auf Kubernetes-Cluster                                                                                       | 🟡 Open Source       |
+| [Want2Lern](https://want2lern.de)                                           | Lernplattform mit KI-Fragengenerierung und 4-stufigem Lizenzsystem                                                                      | 🟢 Live              |
+| [Urban Weaver](https://github.com/AndreZ1971/Urban-Weaver)                  | KI-Lifestyle & Reise-App mit ortsbasierten Empfehlungen                                                                                 | 🟡 Open Source       |
+| [Global Risk Intelligence](https://github.com/AndreZ1971/risk-intelligence) | Dual-Use Plattform: TravelGuard (B2B) + Sentinel Core (B2G)                                                                             | 🔵 B2B/B2G           |
 
 ---
 
